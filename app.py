@@ -31,12 +31,12 @@ def LemNormalize(text):
     return LemToken(nltk.word_tokenize(text.lower().translate(remove_punct_dict)))
 # Grettings
 greeting_inputs = [
-    "Hello",
-    "Hi there",
-    "Hey",
-    "Hi",
-    "Hello there",
-    "Hey there"
+    "hello",
+    "hi there",
+    "hey",
+    "hi",
+    "hello there",
+    "hey there"
 ]
 
 greeting_responses = [
@@ -47,18 +47,18 @@ greeting_responses = [
     "Hello! Learn about my work and achievements."
 ]
 
-def greeting(sentence):
-    for word in sentence.split():
-        if word.lower() in greeting_inputs:
+def greeting(sentences):
+    for i in sentences.split():
+        if i.lower() in greeting_inputs:
             return random.choice(greeting_responses)
         
 # Vectorizer
 chatbot_unaware = [
-    "Hello! I'm sorry, but I can't answer that.",
-    "Hi there! Unfortunately, I can't provide an answer to that.",
-    "Hey! I'm sorry, I can't respond to that.",
-    "Hi! I apologize, but I can't answer that question.",
-    "Hello! Regrettably, I can't provide an answer to that."
+    "I'm sorry, but I can't answer that.",
+    "Unfortunately, I can't provide an answer to that.",
+    "I'm sorry, I can't respond to that.",
+    "I apologize, but I can't answer that question.",
+    "Regrettably, I can't provide an answer to that."
 ]
 
 
@@ -73,7 +73,7 @@ def response(user_response):
     flat.sort()
     req_tfidf = flat[-2]
 
-    if req_tfidf == 0:
+    if (req_tfidf == 0):
         chatbot_response = chatbot_response + random.choice(chatbot_unaware)
         return chatbot_response
     else:
