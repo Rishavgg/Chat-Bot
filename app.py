@@ -94,7 +94,6 @@ if __name__=="__main__":
                 if greeting(user_response)!=None:
                     print("Bot: " + greeting(user_response))
                 else:
-                    # sent_tokens.append(user_response)
                     print("Bot:",end='')
                     print(response(user_response))
                     sent_tokens.remove(user_response)

@@ -1,5 +1,11 @@
-I'm currently a third-year CSE B.Tech student, and I'm really excited about the field of machine learning. My journey into this fascinating domain started when I took part in a hackathon organized by the SIAM Club, and that's when my interest in machine learning was sparked.
+Hello, I'd like to introduce myself to you,I'm currently a third-year CSE B.Tech student, and I'm really excited about the field of machine learning My journey into this fascinating domain started when I took part in a hackathon organized by the SIAM Club, and that's when my interest in machine learning was sparked.
 
-Ever since then, I've been actively working on improving my skills and knowledge in machine learning. I believe in the importance of continuous learning and strive to stay updated with the latest advancements in the field.
+As for my education, I have done my Schooling at Army Public School from 2018 to 2019 for my 10th grade, and later, I continued my academic journey at Aklank Public School from 2020 to 2021, where I completed my 12th grade, all while soaking up knowledge and experiences along the way.
 
-Through this portfolio website, I want to showcase my projects, skills, and growth in machine learning. I'm eager to use my knowledge and expertise to solve real-world problems and collaborate with like-minded individuals and organizations. Please feel free to explore my work and reach out to me for any inquiries, collaborations, or opportunities.
+My skill set covers a spectrum of expertise, including proficiency in Python and Java, which serve as the bedrock of my coding abilities. In the domain of Machine Learning, I have a comprehensive understanding of various techniques, Machine Learning, Supervised Learning, Unsupervised Learning, Data Preprocessing, Data Visualization, Scikit-learn. In the domain of Deep Learning, my proficiency extends to NLP, TensorFlow, Keras.
+
+One of my proudest achievements was securing the first place in a SIAM JUIT hackathon, where my team and I crafted a remarkable Twitter Sentiment Analysis project, showcasing our innovation and problem-solving prowess.
+
+My goal is to put machine learning to practical use in solving real-world challenges, striving to make a tangible impact where it counts. You can check out my portfolio, where I've curated a collection of my tech endeavors, each project telling a unique story of creativity and innovation.
+
+Feel free to reach out or contact to me at rishavdadwal1@gmail.com if you'd like to connect or collaborate on exciting projects, You can also explore my LinkedIn, GitHub, Kaggle, and Medium profiles, where I share my tech journey and discoveries.
