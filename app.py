@@ -37,6 +37,7 @@ greeting_inputs = [
     "hi",
     "hello there",
     "hey there"
+    
 ]
 
 greeting_responses = [
