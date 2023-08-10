@@ -47,12 +47,29 @@ greeting_responses = [
     "Hi! Explore my portfolio and career.",
     "Hello! Learn about my work and achievements."
 ]
+ending_response = [
+    "Goodbye! Feel free to reach out whenever you want to chat again.",
+    "It's been great talking to you! Until next time.",
+    "Farewell for now! Remember, I'm here whenever you need me.",
+    "Take care and see you later!",
+    "Bye-bye! Don't hesitate to return if you have more questions.",
+    "Signing off for now. Have a wonderful day!",
+    "Catch you on the flip side! Remember, I'm just a message away.",
+    "Adios! Feel free to drop by anytime you want to chat.",
+    "So long! Looking forward to our next conversation.",
+    "Until we chat again, goodbye and stay awesome!"
+]
 
+goodbye_keywords = ["bye", "goodbye", "see you", "farewell", "adios", "au revoir", "ciao"]
 def greeting(sentences):
     for i in sentences.split():
         if i.lower() in greeting_inputs:
             return random.choice(greeting_responses)
-        
+def ending(senctences):
+    for i in senctences.split():
+        if i.lower() in goodbye_keywords:
+            return "bye"
+
 # Vectorizer
 chatbot_unaware = [
     "I'm sorry, but I can't answer that.",
@@ -61,6 +78,7 @@ chatbot_unaware = [
     "I apologize, but I can't answer that question.",
     "Regrettably, I can't provide an answer to that."
 ]
+
 
 
 def response(user_response):
@@ -87,7 +105,7 @@ if __name__=="__main__":
     while(flag==True):
         user_response = input()
         user_response = user_response.lower()
-        if(user_response !='bye'):
+        if(ending(user_response)!= "bye"):
             if user_response == 'thanks' or user_response == 'thank you':
                 flag = False
                 print("Bot: You' re welcome!")
@@ -100,4 +118,4 @@ if __name__=="__main__":
                     sent_tokens.remove(user_response)
         else:
             flag = False
-            print("Bot: Bye! Have a nice day")
+            print(random.choice(ending_response))
