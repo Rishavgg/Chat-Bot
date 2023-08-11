@@ -158,9 +158,9 @@ if __name__ == "__main__":
                 flag = False
                 print(random.choice(chatbot_thanks_response))
                 break
-            elif asking(user_response) is not None:
-                print("Bot: " + asking(user_response))
             else:
+                # if asking(user_response) is not None:
+                #     print("Bot: " + asking(user_response))
                 if greeting(user_response) is not None:
                     print("Bot: " + greeting(user_response))
                 else:
