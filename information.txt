@@ -2,6 +2,7 @@ Hello, I'd like to introduce myself to you,I'm currently a third-year CSE B.Tech
 
 As for my education, I have done my Schooling at Army Public School from 2018 to 2019 for my 10th grade, and later, I continued my academic journey at Aklank Public School from 2020 to 2021, where I completed my 12th grade, all while soaking up knowledge and experiences along the way.
 
+
 My skill set covers a spectrum of expertise, including proficiency in Python and Java, which serve as the bedrock of my coding abilities. In the domain of Machine Learning, I have a comprehensive understanding of various techniques, Machine Learning, Supervised Learning, Unsupervised Learning, Data Preprocessing, Data Visualization, Scikit-learn. In the domain of Deep Learning, my proficiency extends to NLP, TensorFlow, Keras.
 
 One of my proudest achievements was securing the first place in a SIAM JUIT hackathon, where my team and I crafted a remarkable Twitter Sentiment Analysis project, showcasing our innovation and problem-solving prowess.
