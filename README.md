@@ -20,8 +20,6 @@ The Portfolio Companion Chatbot is a simple text-based chatbot that provides res
 
 ## Example Usage
 
-Will add soon
-
 
 ## Limitations
 
