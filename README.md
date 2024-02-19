@@ -15,11 +15,11 @@ The Portfolio Companion Chatbot is a simple text-based chatbot that provides res
 1. Clone the repository: `git clone https://github.com/Rishavgg/Chat-Bot.git`
 2. Install the required libraries: `pip install nltk scikit-learn`
 3. Place your text content in the 'information.txt' file.
-4. Run the chatbot: `python chatbot.py`
+4. Run the chatbot: `python app.py`
 5. Interact with the chatbot by entering text queries.
 
 ## Example Usage
-
+I will add soon
 
 ## Limitations
 
