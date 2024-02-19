@@ -147,7 +147,7 @@ def response(user_response):
 
 if __name__ == "__main__":
     flag = True
-    print("Hello! I am your Portfolio Companion Chatbot created by Rishav.")
+    print("Hello! I am Portfolio Companion Chatbot created by Rishav.")
     
     while flag:
         user_response = input()
