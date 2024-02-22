@@ -18,9 +18,6 @@ The Portfolio Companion Chatbot is a simple text-based chatbot that provides res
 4. Run the chatbot: `python app.py`
 5. Interact with the chatbot by entering text queries.
 
-## Example Usage
-I will add soon
-
 ## Limitations
 
 - The chatbot's responses are limited to the provided patterns and the content of the 'information.txt' file.
